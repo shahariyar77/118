@@ -1,0 +1,126 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+
+.section-padding {
+  padding: 60px 0;
+}
+.section-tittle h2 {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.boder-icon-warp {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  color: #ffce46;
+  font-size: 30px;
+}
+.boder-icon-warp::before,.boder-icon-warp:after {
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  width: 50px;
+  background: #ffce46;
+  content: "";
+  margin-top: -1px;
+}
+.boder-icon-warp:before {
+  left: -70px;
+}
+.boder-icon-warp:after {
+  right: ;
+  left: 70px;
+  right: ;
+  left: 60px;
+}
+.potfolio-tiem {
+  overflow: hidden;
+}
+.single-potfolio-itme {
+  /*float: left;
+  width: 20%;*/
+  height: 280px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+}
+.potfolio-text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100;
+  color: #fcc73f;
+  font-style: italic;
+  padding: 20px;
+  transition: .3s;
+}
+.potfolio-text h4 {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  font-style: normal;
+}
+.potfolio-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: table;
+  transition: .3s;
+  opacity: 0;
+  visibility: hidden;
+}
+.potfolio-hover-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.potfolio-hover-inner a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: #ffce46;
+  color: #fff;
+  line-height: 40px;
+  border-radius: 50%;
+}
+.potfolio-hover-inner a.blue-bg {
+  background-color: blue;
+}
+.potfolio-hover-inner::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #000;
+  z-index: -1;
+  opacity: .5;
+}
+.single-potfolio-itme:hover .potfolio-text {
+  opacity: 0;
+  visibility: hidden;
+}
+.single-potfolio-itme:hover .potfolio-hover {
+  opacity: 1;
+  visibility: visible;
+}
+.single-potfolio-itme{
+    background-image: url(img/car1.jpg);
+}
+.bg-1{
+    background-image: url(img/Top%20CB%20Edits%20Background%20Download.jpg);
+}
+.bg-4{
+    background-image: url(img/img-4.jpg);
+}
